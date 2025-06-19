@@ -1,5 +1,10 @@
 package sumerge.task.springbeancourserecommender;
 
+
+import sumerge.task.springbeancourserecommender.Model.Course;
+
+import java.util.List;
+
 public interface CourseRecommender {
-    public String recommend();
+    public List<Course> recommend();
 }
